@@ -72,4 +72,4 @@ Certifique-se de ter instalado:
 
 ---
 
-<div align="center">Feito com 💜 e ☕ por <a href="https://github.com/romaosantosalisson" target="_blank">Álisson</a></div>
+<div align="center">Feito com 💜 e ☕ por <a href="https://github.com/romaosantosalisson" target="_blank">Álisson Romão Santos</a></div>
