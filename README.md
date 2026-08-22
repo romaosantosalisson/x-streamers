@@ -56,6 +56,8 @@ Certifique-se de ter instalado:
 4. Acesse no navegador:
    Abra `http://localhost:5173` (ou o endereço indicado no terminal).
 
+   **Observação:** *O projeto em desenvolvimento abrirá na raiz `http://localhost:5173` mas é necessário colocar na URL um `/x-streamers/` pois esse é o basename definido no react-router-dom do projeto. Ex: Acesse ou digite no navegador de sua escolha a URL `http://localhost:5173/x-streamers/`*.
+
 ## 📦 Scripts Disponíveis
 
 - `npm run dev`: Inicia o ambiente de desenvolvimento.
@@ -65,5 +67,9 @@ Certifique-se de ter instalado:
 - `npm run format`: Formata o código com Prettier.
 - `npm run format:check`: Verifica se o código está formatado com Prettier.
 
+## 🚀 Deploy
+> Acesse no navegador: **[X-Streamers Chess WebSite](https://romaosantosalisson.github.io/x-streamers/)**
+
 ---
-Feito com 💜 e ☕ por **[Álisson](https://github.com/romaosantosalisson)**
+
+<div align="center">Feito com 💜 e ☕ por <a href="https://github.com/romaosantosalisson" target="_blank">Álisson</a></div>
