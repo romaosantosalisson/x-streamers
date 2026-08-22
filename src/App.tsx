@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { MainLayout } from "./pages/MainLayout";
 import { SearchFavoriteis } from "./pages/SearchFavoriteis";
@@ -18,6 +18,7 @@ export function App() {
           element={<StreamerProfile streamers={streamers} setStreamers={setStreamers} />}
         />
         <Route path="/search-favoriteis" element={<SearchFavoriteis />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
