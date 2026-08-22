@@ -1,0 +1,13 @@
+footer {
+  border-top: 0.2rem solid var(--border);
+  padding: 2rem;
+
+  & p {
+    font-size: 1.4rem;
+    text-align: center;
+
+    & a {
+      color: var(--text);
+    }
+  }
+}

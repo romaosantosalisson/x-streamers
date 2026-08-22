@@ -1,0 +1,28 @@
+export type StreamerType = {
+  username: string;
+  avatar: string;
+  twitch_url: string;
+  url: string;
+  is_live: boolean;
+  is_community_streamer: boolean;
+  platforms: [
+    {
+      type: string;
+      stream_url: string;
+      channel_url: string;
+      is_live: boolean;
+      is_main_live_platform: boolean;
+    },
+    {
+      type: string;
+      stream_url: string;
+      channel_url: string;
+      is_live: boolean;
+      is_main_live_platform: boolean;
+    },
+  ];
+};
+
+export type StreamersResponse = {
+  streamers: StreamerType[];
+};

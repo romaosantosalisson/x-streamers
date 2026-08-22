@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root,
+:root.light {
+  --text: #716a7d;
+  --text-h: #17131f;
+
+  --bg: #faf9fc;
+  --surface: #ffffff;
+
+  --border: #e8e5eb;
+
+  --accent: #9b3ff2;
+  --accent-hover: #8425dc;
+
+  --accent-bg: rgba(155, 63, 242, 0.09);
+  --accent-border: rgba(155, 63, 242, 0.35);
+
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --muted: #94a3b8;
+
+  --shadow: rgba(0, 0, 0, 0.06) 0 10px 25px -5px, rgba(0, 0, 0, 0.03) 0 4px 10px -4px;
+
+  color-scheme: light;
+}
+
+:root.dark {
+  --text: #a8a1b5;
+  --text-h: #f4f1f8;
+
+  --bg: #100d14;
+  --surface: #18141d;
+
+  --border: #2b2632;
+
+  --accent: #b45cff;
+  --accent-hover: #c278ff;
+
+  --accent-bg: rgba(180, 92, 255, 0.12);
+  --accent-border: rgba(180, 92, 255, 0.35);
+
+  --success: #4ade80;
+  --warning: #fbbf24;
+  --danger: #f87171;
+  --muted: #64748b;
+
+  --shadow: rgba(0, 0, 0, 0.35) 0 10px 25px -5px, rgba(0, 0, 0, 0.2) 0 4px 10px -4px;
+
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: var(--bg);
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+main {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--text-h);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+button {
+  cursor: pointer;
+}
