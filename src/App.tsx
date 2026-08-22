@@ -18,6 +18,7 @@ export function App() {
           element={<StreamerProfile streamers={streamers} setStreamers={setStreamers} />}
         />
         <Route path="/search-favoriteis" element={<SearchFavoriteis />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
     </Routes>
   );
