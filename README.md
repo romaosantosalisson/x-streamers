@@ -39,7 +39,7 @@ Certifique-se de ter instalado:
 
 1. Clone o repositório:
    ```bash
-   git clone <url-do-repositorio>
+   git clone https://github.com/romaosantosalisson/x-streamers.git
    cd x-streamers
    ```
 
@@ -68,8 +68,8 @@ Certifique-se de ter instalado:
 - `npm run format:check`: Verifica se o código está formatado com Prettier.
 
 ## 🚀 Deploy
-> Acesse no navegador: **[X-Streamers Chess WebSite](https://romaosantosalisson.github.io/x-streamers/)**
+> Acesse no navegador: **[X-Streamers Web Site](https://romaosantosalisson.github.io/x-streamers/)**
 
 ---
 
-<div align="center">Feito com 💜 e ☕ por <a href="https://github.com/romaosantosalisson" target="_blank">Álisson Romão Santos</a></div>
+<div align="center">&copy; Feito com 💜 e ☕ por <a href="https://github.com/romaosantosalisson" target="_blank"><strong>Álisson</strong></a></div>
